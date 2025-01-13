@@ -1,13 +1,21 @@
-import java.util.Scanner;
-
-public class student{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-    }
-    private String name;
+public class Student{
+    public String name;;
     private int age;
-    private int rollno;
-    private String branch;
-   
+    public Students(String name, int age){
+        this.name = name;
+        this.age = age;
+
+    }
+    public String getName(){
+        return name;
+    }
+    void Setname(String name){
+        this.name = name;
+    }
+    public int setAge(){
+        return age;
+    }
+    void getAge(int age){
+        this.age = age;
+    }
 }
-    
